@@ -19,6 +19,7 @@ import { data } from "autoprefixer";
 import { createContext } from "react";
 import Navbar from "./navbar";
 import { useNavigate } from "react-router-dom";
+import Footer from "../Components/footer";
 
 function Cater() {
 const navigate = useNavigate()
@@ -113,6 +114,10 @@ function FeetchContent(props) {
             </div>
         </div>
         </div>
+    </div>
+
+    <div className=" hidden py-3 bottom-0 mt-3  align-middle content-center items-center w-[80%] flex justify-center mx-auto">
+        <Footer  />
     </div>
    
     </>

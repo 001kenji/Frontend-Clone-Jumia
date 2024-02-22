@@ -4,6 +4,7 @@ import trolley from '../assets/icons/cart.png'
 import search from '../assets/icons/search.png'
 import Navbar from "./navbar";
 import { useNavigate } from "react-router-dom";
+import Footer from "../Components/footer";
 export default function Feed(){
  
     const searchImg = document.getElementById('search')
@@ -31,6 +32,9 @@ export default function Feed(){
             <div id="head-nav">
            <span onClick={EmojiFunc} id="EmojiFeed">&#128513;</span>
             </div>
+        </div>
+        <div className=" py-3 bottom-0 mt-[50%]  align-middle content-center items-center w-[80%] flex justify-center mx-auto">
+            <Footer  />
         </div>
         </>
     )

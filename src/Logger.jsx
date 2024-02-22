@@ -9,6 +9,7 @@ import { load_user } from "./action/act";
 import {useDispatch, useSelector} from 'react-redux'
 import { RootReducer } from "./reducer/reducer";
 import { INCREMENT, USER_LOADED_FAIL, USER_LOADED_SUCCESS } from "./action/type";
+import Footer from "./Components/footer";
 
 // import axios from 'axios';
 export default function Logger(props){
@@ -335,6 +336,10 @@ export default function Logger(props){
                 }
             </div>
         </div>
+        <div className=" bottom-0 mt-3  align-middle content-center items-center w-[80%] flex justify-center mx-auto">
+             <Footer  />
+        </div>
+       
         </>
     )
 }

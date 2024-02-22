@@ -9,6 +9,7 @@ import LastSeach from "./lastSeach";
 import {useSelector} from 'react-redux'
 import { RootReducer } from "../reducer/reducer";
 import { useNavigate } from "react-router-dom";
+import Footer from "../Components/footer";
 export default function Home() {
     const database = useSelector(RootReducer)
     const navigate = useNavigate()
@@ -29,6 +30,9 @@ export default function Home() {
                 <LastViewed />
                 <Variables />
                 <LastSeach />
+                <div className=" py-3 bottom-0 mt-3  align-middle content-center items-center w-[80%] flex justify-center mx-auto">
+                    <Footer  />
+                </div>
             </div>
         </>
 

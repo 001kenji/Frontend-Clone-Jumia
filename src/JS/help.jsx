@@ -4,7 +4,7 @@ import '../App.css'
 import chart from '../assets/icons/chat.png'
 import rightArrow from '../assets/icons/rightArrow.png'
 import { useNavigate } from "react-router-dom";
-
+import Footer from "../Components/footer";
  function Help(){
     const [AppVersion, setAppVersion] =  useState('12.4.3')
     var [CacheData,setCacheData] = useState('2.54 MB')
@@ -99,6 +99,10 @@ import { useNavigate } from "react-router-dom";
                 <button onClick={ClearCache} id="clearCache">CLEAR</button>
             </button>
            <hr></hr>
+        </div>
+
+        <div className=" py-3 bottom-0 mt-3  align-middle content-center items-center w-[80%] flex justify-center mx-auto">
+            <Footer  />
         </div>
         </>
     )

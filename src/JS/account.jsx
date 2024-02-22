@@ -15,6 +15,7 @@ import {useDispatch, useSelector} from 'react-redux'
 import { RootReducer } from "../reducer/reducer";
 import { LOGOUT } from "../action/type";
 import { useNavigate } from "react-router-dom";
+import Footer from "../Components/footer";
 export default MyAccount 
 function MyAccount(){
     const database = useSelector(RootReducer)
@@ -113,6 +114,10 @@ function MyAccount(){
             <big onClick={Logout}>LOGOUT</big>
         </button>
        </div>
+
+       <div className=" py-3 bottom-0 mt-3  align-middle content-center items-center w-[80%] flex justify-center mx-auto">
+            <Footer  />
+        </div>
         </>
     )
 }
