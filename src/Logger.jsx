@@ -123,7 +123,7 @@ export default function Logger(props){
 
         
             const raw = JSON.stringify({
-            "username": props.username,
+            "name": props.username,
             "password": props.password
             });
 
@@ -134,7 +134,7 @@ export default function Logger(props){
             redirect: "follow"
             };
 
-            fetch(`${import.meta.env.VITE_APP_API_URL}/user/`, requestOptions)
+            fetch(`https://loginbackendtest1.vercel.app/user/write/`, requestOptions)
             .then((response) => response.json())
             .then((result) => Datafunc(result))
             .catch((error) => Responsecatch(error));
