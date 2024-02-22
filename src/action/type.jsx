@@ -1,0 +1,7 @@
+export const INCREMENT = "INCREMENT"
+export const DECREMENT = 'DECREMENT'
+export const GET_PROFILE = 'GET_PROFILE'
+export const LOGOUT = 'LOGOUT'
+export const USER_LOADED_SUCCESS = 'USER_LOADED_SUCCESS'
+export const USER_LOADED_FAIL = 'USER_LOADED_FAIL'
+

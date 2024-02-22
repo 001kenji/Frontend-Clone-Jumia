@@ -1,0 +1,81 @@
+@media only screen and (max-width :320px) {
+    #socialIcon {
+        width: 22px;
+        height: 22px;
+        padding: 2px;
+    }
+    #socialdiv {
+        margin-top: inherit;
+        display: inline-flex;
+        gap: 6px;
+        
+    }
+    #myHeader {
+        margin-top: -4.8px;
+        position: sticky;
+        background-color: black;
+        
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width :640px) {
+    #socialIcon {
+        width: 25px;
+        height: 25px;
+        padding: 2px;
+    }
+    #socialdiv {
+        margin-top: inherit;
+        display: inline-flex;
+        gap: 6px;
+        
+    }
+    #myHeader {
+        margin-top: -4.8px;
+        position: sticky;
+        background-color: black;
+    }
+
+    
+
+}
+@media only screen and (min-width: 641px) and (max-width :768px) {
+    #socialIcon {
+        width: 25px;
+        height: 25px;
+        padding: 2px;
+    }
+    #socialdiv {
+        margin-top: inherit;
+        display: inline-flex;
+        gap: 6px;
+        max-width: 200px;
+    }
+    #myHeader {
+        margin-top: -4.8px;
+        position: sticky;
+        background-color: black;
+        
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #socialIcon {
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+    }
+    #socialdiv {
+        margin-top: inherit;
+        display: inline-flex;
+        gap: 6px;
+        max-width: 200px;
+    }
+    #myHeader {
+        padding: 5px;
+        margin-top: -4.8px;
+        position: sticky;
+        background-color: black;
+        
+    }
+}

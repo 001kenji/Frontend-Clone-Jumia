@@ -1,0 +1,73 @@
+#head{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 12px;
+    font-size: x-large;
+    color: white;
+    background-color: #333;
+    font-family: serif;
+    display: flex;
+    justify-content: space-between;
+}
+#searchInput {
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: normal;
+    text-overflow: ellipsis;
+    background-color: azure;
+    color: black;
+    font-family: serif;
+    display: none;
+    cursor: pointer;
+  
+}
+#trolleyLink {
+    display: inline-flex;
+}
+#howMany {
+    background-color: orange;
+    color: white;
+    font-size:medium;
+    border-radius: 100%;
+    padding: 3px;
+    float: right;
+    font-weight: bold;
+    font-family: serif;
+    margin-top: -12px;
+    position: relative;
+    align-content: center;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+justify-content: center;    
+}
+#head-nav {
+    display: inline-flex;
+    gap: 4px;
+    margin-top: 1px;
+    align-items: center;
+    justify-content: center;
+}
+#head-nav span {
+    margin-right: 5px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    font-size: xx-large;
+}
+#search {
+    cursor: pointer;
+    background-color: azure;
+
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+}
+#trolley {
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+}

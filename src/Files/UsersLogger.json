@@ -1,0 +1,18 @@
+[
+  {"username": "user1", "password": "pass123", "email": "user1@example.com"},
+  {"username": "user2", "password": "securepass456", "email": "user2@example.com"},
+  {"username": "user3", "password": "mysecretword", "email": "user3@example.com"},
+  {"username": "user4", "password": "password789", "email": "user4@example.com"},
+  {"username": "user5", "password": "strongpass", "email": "user5@example.com"},
+  {"username": "user6", "password": "secret123", "email": "user6@example.com"},
+  {"username": "user7", "password": "pass456", "email": "user7@example.com"},
+  {"username": "user8", "password": "secureword789", "email": "user8@example.com"},
+  {"username": "user9", "password": "mypassword", "email": "user9@example.com"},
+  {"username": "user10", "password": "newpass", "email": "user10@example.com"},
+  {"username": "user11", "password": "testpass", "email": "user11@example.com"},
+  {"username": "user12", "password": "pass1234", "email": "user12@example.com"},
+  {"username": "user13", "password": "secure123", "email": "user13@example.com"},
+  {"username": "user14", "password": "mypassword456", "email": "user14@example.com"},
+  {"username": "user15", "password": "passwordtest", "email": "user15@example.com"},
+  {"username": "user16", "password": "newpassword", "email": "user16@example.com"}
+ ]

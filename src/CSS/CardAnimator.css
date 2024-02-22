@@ -1,0 +1,186 @@
+@media only screen and (max-width: 375px) {
+    #cardContainer {
+        display: flex;
+        background-color: hsl(0, 0%, 20%);
+      width: 100%;
+      padding: 10px;
+      position: relative;
+      animation-name: cardContainer;
+      animation-duration: 4s;
+    }
+    #masterContainer {
+        padding-left: 3px;
+        background-color: #333;
+        white-space: nowrap;
+        overflow: auto;
+    }
+    #cardContainer:hover {
+        cursor: pointer;
+        width: 120%;
+        border: 1px solid transparent;
+        
+    }
+    #megaContainer {
+        display: inline-flex;
+        scroll-behavior: smooth;
+       background-color: #333;
+       gap: 20px;
+       padding: 0 2rem;
+        justify-content: space-between;
+       scrollbar-color: cyan;
+    }
+    #hr2 {
+        height: 6px;
+        background-color: black;
+    }
+    #leftWing {
+        /* transform: skewY(190deg); */
+        transform: skewX(162deg);
+        padding: 5px;
+        display: inline-flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: black;
+        font-weight: 500;
+        width: 130px;
+        height: 140px;
+    }
+    #rightWingHr{
+        transform: skewY(190deg);
+        transform: skewX(162deg);
+        position: relative;
+        background-color: gold;
+        /* background-image: linear-gradient(black,white); */
+        width: 5px;
+        height: 140px;
+        
+    }
+    #rightWing {
+        transform: skewY(190deg);
+        transform: skewX(162deg);
+        width: 130px;
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 140px;
+    }
+    #leftWingAdress {
+        display: grid;
+        font-family: serif;
+        font-weight: bold;
+    }
+    #leftWingCost {
+        background-color: white;
+        color: black;
+        width: fit-content;
+        height: fit-content;
+        padding: 4px;
+        border-radius: 5px;
+    }
+    #leftWingCost:hover {
+        cursor: pointer;
+        background-color: black;
+        color: orange;
+    }
+    #leftWingAdress h1 {
+     color: black;
+     font-weight: bolder;
+     font-size: larger;
+     
+    }
+    
+}
+
+
+@media only screen and (min-width: 376px) {
+    #cardContainer {
+        display: flex;
+        background-color: #333;
+      width: 100%;
+      padding: 10px;
+      position: relative;
+      animation-name: cardContainer;
+      animation-duration: 4s;
+    }
+    #masterContainer {
+        padding-left: 3px;
+        background-color: #333;
+        white-space: nowrap;
+        overflow: auto;
+    }
+    #cardContainer:hover {
+        cursor: pointer;
+        width: 120%;
+        border: 1px solid transparent;
+        
+    }
+    #megaContainer {
+        display: inline-flex;
+        scroll-behavior: smooth;
+       background-color: #333;
+       gap: 20px;
+       padding: 0 2rem;
+        justify-content: space-between;
+       scrollbar-color: cyan;
+    }
+    #hr2 {
+        height: 6px;
+        background-color: black;
+    }
+    #leftWing {
+        /* transform: skewY(190deg); */
+        transform: skewX(162deg);
+        padding: 5px;
+        display: inline-flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: black;
+        font-weight: 500;
+        width: 160px;
+        height: 160px;
+    }
+    #rightWingHr{
+        transform: skewY(190deg);
+        transform: skewX(162deg);
+        position: relative;
+        background-color: gold;
+        /* background-image: linear-gradient(black,white); */
+        width: 5px;
+        height: 160px;
+        
+    }
+    #rightWing {
+        transform: skewY(190deg);
+        transform: skewX(162deg);
+        width: 160px;
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 160px;
+    }
+    #leftWingAdress {
+        display: grid;
+        font-family: serif;
+        font-weight: bold;
+    }
+    #leftWingCost {
+        background-color: white;
+        color: black;
+        width: fit-content;
+        height: fit-content;
+        padding: 4px;
+        border-radius: 5px;
+    }
+    #leftWingCost:hover {
+        cursor: pointer;
+        background-color: black;
+        color: orange;
+    }
+    #leftWingAdress h1 {
+     color: black;
+     font-weight: bolder;
+     font-size: larger;
+     
+    }
+    
+}

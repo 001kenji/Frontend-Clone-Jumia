@@ -1,0 +1,689 @@
+@font-face {
+  font-family: BigPoppin;
+  src: url('./assets/poppin-font/Poppins-ExtraBold.ttf');
+}
+@font-face {
+  font-family: SmallPoppin;
+  src: url('./assets/poppin-font/Poppins-Medium.ttf');
+}
+
+@media only screen and (max-width: 320px) {
+
+
+  #welcome-heading {
+    font-family: BigPoppin;
+    font-size: larger;
+
+  }
+  #Disp {
+    font-family: SmallPoppin;
+  }
+  #login-form {
+    display: flex;
+
+    flex-direction: column;
+    min-height: fit-content;
+    height: 300px;
+    justify-content: space-around;
+    width: 90%;
+    border: 1px solid black;
+    padding: 2rem 5px;
+    margin: 2rem auto 0 auto;
+    align-items: center;
+
+  }
+  #login-form input,   #signup-confirm-form input {
+    border-radius: 2px;
+    background-color: #333;
+    text-align: center;
+    border: 0.1px solid black;
+    
+    padding: 3px;
+    min-width: 100%;
+    width: min-content;
+    outline: none;
+    color: white;
+  }
+  #login-form input::placeholder,   #signup-confirm-form input::placeholder {
+    color: azure;
+    text-align: center;
+    font-weight: 400;
+  }
+  #signup-confirm-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+    margin-top: 5%;
+    border: 1px solid black;
+    padding: 1rem 5px;
+    min-height: 350px;
+    gap: 1rem;
+    justify-content: space-around;
+  }
+
+  #errorform {
+    padding: 0.2rem;
+    width: 80%;
+    border-radius: 5px;
+    color: red;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    font-size: small;
+    font-family: SmallPoppin;
+}
+#notifier p {
+  text-align: center;
+}  
+
+#notifier {
+  display: flex;
+  gap: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: large;
+  padding: -5px 0;
+  background-color: black;
+  width: fit-content ;
+  min-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+ 
+
+}
+#notifier img {
+
+  border-radius: 100%;
+}
+ 
+}
+
+@media only screen and (max-width: 640px) and (min-width : 321px) {
+
+
+  #welcome-heading {
+    font-family: BigPoppin;
+    font-size: larger;
+
+  }
+  #Disp {
+    font-family: SmallPoppin;
+  }
+  #login-form {
+    display: flex;
+
+    flex-direction: column;
+    min-height: fit-content;
+    height: 300px;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 360px;
+    border: 1px solid black;
+    padding: 2rem 5px;
+    margin: 2rem auto 0 auto;
+    align-items: center;
+
+  }
+  #login-form input,   #signup-confirm-form input {
+    border-radius: 2px;
+    background-color: #333;
+    text-align: center;
+    border: 0.1px solid black;
+    
+    padding: 3px;
+    min-width: 100%;
+    width: min-content;
+    outline: none;
+    color: white;
+  }
+  #login-form input::placeholder,   #signup-confirm-form input::placeholder {
+    color: azure;
+    text-align: center;
+    font-weight: 400;
+  }
+  #signup-confirm-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 360px;
+    margin-top: 2%;
+    border: 1px solid black;
+    padding: 1rem 5px;
+    min-height: 350px;
+    gap: 1rem;
+    justify-content: space-around;
+  }
+
+  #errorform {
+    padding: 0.2rem;
+    width: 80%;
+    border-radius: 5px;
+    color: red;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    font-size: small;
+    font-family: SmallPoppin;
+}
+#notifier p {
+  text-align: center;
+}  
+
+#notifier {
+  display: flex;
+  gap: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: large;
+  padding: -5px 0;
+  background-color: black;
+  width: fit-content ;
+  min-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+ 
+
+}
+#notifier img {
+
+  border-radius: 100%;
+}
+ 
+}
+
+@media only screen  and (min-width : 641px) {
+
+
+  #welcome-heading {
+    font-family: BigPoppin;
+    font-size: larger;
+
+  }
+  #Disp {
+    font-family: SmallPoppin;
+  }
+  #login-form {
+    display: flex;
+
+    flex-direction: column;
+    min-height: fit-content;
+    height: 300px;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 360px;
+    border: 1px solid black;
+    padding: 2rem 5px;
+    margin: 2rem auto 0 auto;
+    align-items: center;
+
+  }
+  #login-form input,   #signup-confirm-form input {
+    border-radius: 2px;
+    background-color: #333;
+    text-align: center;
+    border: 0.1px solid black;
+    
+    padding: 3px;
+    min-width: 100%;
+    width: min-content;
+    outline: none;
+    color: white;
+  }
+  #login-form input::placeholder,   #signup-confirm-form input::placeholder {
+    color: azure;
+    text-align: center;
+    font-weight: 400;
+  }
+  #signup-confirm-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 360px;
+    margin-top: 2%;
+    border: 1px solid black;
+    padding: 1rem 5px;
+    min-height: 350px;
+    gap: 1rem;
+    justify-content: space-around;
+  }
+
+  #errorform {
+    padding: 0.2rem;
+    width: 80%;
+    border-radius: 5px;
+    color: red;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    font-size: small;
+    font-family: SmallPoppin;
+}
+#notifier p {
+  text-align: center;
+}  
+
+#notifier {
+  display: flex;
+  gap: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: large;
+  padding: -5px 0;
+  background-color: black;
+  width: fit-content ;
+  min-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+ 
+
+}
+#notifier img {
+
+  border-radius: 100%;
+}
+ 
+}
+
+
+
+#loggerDis{
+  width: 80%;
+  background-color: transparent;
+  display: grid;
+  color: black;
+  border: black;
+  border: 20px;
+  padding: 8px;
+}
+#wrong {
+  color: rgb(156, 2, 2);
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: azure;
+  display: inline-flex;
+  justify-content: center;
+  font-weight: bold;
+}
+#LoggerBody {
+  width: 100%;
+  
+  height: 100%;
+  background-image: url('./assets/icons/starBackgroundImg.png');
+}
+#LoggerDiv button:hover, #LoggerDiv button:focus {
+  cbackground-color: transparent;
+  color: yellow;
+  border: 1px solid yellow;
+}
+
+#SingInBtn:hover, #ForgotBtn:hover {
+  opacity: 100%;
+  color: gold;
+  
+  border-bottom: 1px solid cyan;
+}
+#LoggerDiv button {
+  color: white;
+  background-color: rgb(2, 2, 94);
+  padding: 5px;
+  font-size: small;
+  font-family: 'Times New Roman';
+  border-radius: 5px;
+}
+#LoggerDiv {
+  padding: 5px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+#moreActionDiv {
+  display: inline-flex;
+  justify-content: space-around;
+  opacity: 80%;
+  color: white;
+  font-family: serif;
+  font-size: small;
+}
+#userNameDiv,#PasswordDiv {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+#userNameDiv img, #PasswordDiv img {
+  width: 50px;
+}
+#userNameDiv input:focus {
+  border: 1px solid cyan;
+}
+#userNameDiv input, #PasswordDiv input {
+  border-radius: 2px;
+  padding: 5px;
+  font-family: serif;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+#logInForm {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+#UserIconDiv {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+#logInDiv {
+  padding: 20px;
+  display: block;
+  
+}
+
+#UserIconDiv img{
+  width: 100px;
+}
+#omega {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+
+}
+#welcomeDiv {
+  border-color: transparent;
+ background-color: transparent;
+  margin-top: 50%;
+}
+#welcomeImg{
+  background-color: transparent;
+  margin-top: 5px;
+  border-color: transparent;
+  background-position: center;
+    background-repeat: no-repeat;
+  width: 100%;
+  background-size: contain;
+  height: 1px;
+  display: block;
+  /* background-image: url('./assets/icons/welcomeImg.png'); */
+}
+#logIn {
+  margin-top: 40px;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  border: 1px solid transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-image: url('./assets/icons/logerDivImg.jpg');
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#appVersionBtn, #CacheBtn {
+  border: 1px solid transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-flex;
+  border-color: transparent;
+  margin-left: 0px;
+  justify-content: space-between ;
+}
+#notificationDiv {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 60px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: grey;
+  align-items: center;
+  display: flex;
+  
+  padding: -1px;
+  height: 20px;
+}
+
+#notificationDiv span {
+  border-radius: 100%;
+  position: relative;
+  width: 30px;
+  height: 25px;
+}
+#chatDiv img {
+  width: 50px;
+}
+#clearCache {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 3px;
+  background-color: white;
+  color: black;
+  font-family: 'Times New Roman';
+}
+#clearCache:hover {
+  background-color: orange;
+  color: #333;
+  font-weight: bold;
+}
+#LocationContainer {
+  width: fit-content;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  padding: 2px;
+}
+#LocationContainer option {
+  color: black;
+  background-color: white;
+}
+#chatDiv {
+  width: 100%;
+  margin-bottom: 10px;
+  display: inline-flex;
+  justify-content: center;
+}
+#chatBtn:hover, #chatBtn:focus {
+  box-shadow: 3px 3px #333;
+  animation-timing-function: cubic-bezier(0,0,1,1);
+  animation-name: chatAni;
+  animation-duration: 2s ;
+  
+}
+@keyframes chatAni {
+  50%{width: 70%;background-color: hotpink;}
+  100%{width: 80%;background-color: orange;}
+}
+#chatBtn {
+  margin-top: 5px;
+  align-items: center;
+  font-weight: bold;
+  background-color: orange;
+  width: 80%;
+  display: inline-flex;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  font-family: 'Times New Roman';
+  font-size: large;
+  justify-content: space-around;
+  
+}
+#walletImg {
+  width: 35px;
+
+}
+#AOI img {
+  width: 50px;
+}
+#logOutDiv {
+  padding: 5px;
+  display: flex; /*flex */
+  align-items: center;
+  justify-content: center;
+}
+#logOutDiv button {
+  color: orange;
+  font-weight: bolder;
+  font-family: 'Times New Roman';
+  font-size: small;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(223, 220, 220);
+}
+#logOutDiv button:hover {
+  color: #333;
+  background-color: orange;
+}
+#AOI {
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+#accountOrderBtn:hover,#settingsCloseBtn:hover,#settingsManagementBtn:hover,#settingsAddressBtn:hover,#accountsearchedBtn:hover, #accountfollowBtn:hover,#accountsavedBtn:hover, #accountvoucherBtn:hover, #accountInboxBtn:hover, #accountRatingBtn:hover {
+  background-color: #9b9a9a;
+  padding-right: 20px;
+  padding-top: 5px;
+  color: white;
+  border-bottom: 1px solid #333;
+}
+#accountOrderBtn,#settingsCloseBtn,#settingsManagementBtn,#settingsAddressBtn,#accountsearchedBtn, #accountfollowBtn,#accountsavedBtn, #accountInboxBtn,#accountvoucherBtn, #accountRatingBtn {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-flex;
+  margin-left: 0px;
+  justify-content: space-between ;
+}
+#accountDiv span {
+  background-color: rgb(223, 220, 220);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: normal;
+  padding-left: 15px;
+}
+#accountDiv {
+  display: grid;
+ 
+}
+#rightArrow {
+  display: inline-flex;
+  align-items: center;
+  width: 30px;
+  height: 25px;
+}
+#ballanceBtn {
+  height: fit-content;
+  width: 100%;
+  display: inline-flex;
+  gap:10px;
+  font-weight: bold;
+  color: darkblue;
+  align-items: center;
+}
+#accountWelcome {
+  background-color: #333;
+  color: white;
+  padding: 5px;
+}
+#accountWelcome big {
+  color: orange;
+  font-size: larger;
+}
+#accountWelcome p {
+  font-size: small;
+  
+}
+#bodyApp {
+margin-top: 0px;
+display: block;
+}
+#myNavbar {
+  position: sticky;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+#refresh {
+  background-color: orange;
+  position: absolute;
+  margin-left: 45%;
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: none;  /*flex*/
+  width: fit-content;
+}
+#welcomeImage {
+  padding-top: 10px;
+  width: 80px;
+  height: 120px;
+  margin-left: 35%;
+  justify-content: center;
+
+}
+#buttonLog{
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 3px;
+  
+}
+#welcomeFooter {
+ font-size: small;
+ margin-top: 25%;
+ 
+}
+#last {
+  
+}
+#buttonPass {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 3px;
+
+}
+#buttonPass:hover{
+  border-color: black;
+  color: white;
+  background-color: orange;
+  padding: 10px;
+}
+@media screen and (min-width : 600px){
+  #pageLogger{
+    margin-top: 10%;
+  }
+}
+#pageLogger{
+  margin-top: 20%;
+  border: orange;
+
+  /* background-image: url(../src/assets/stars.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  border: 5px;
+  clear: both;
+  content: none;
+}
+#buttonLog:hover{
+  border-color: black;
+  color: white;
+  background-color: orange;
+  padding: 10px;
+}
+#welcome{
+  position: relative;
+  display: grid;
+  font-weight: bold;
+  justify-content: center;
+}
+
+

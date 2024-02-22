@@ -1,0 +1,94 @@
+#choices {
+    display: grid;
+    font-family: serif;
+    width: 130px;
+    margin-top: 3px;
+    
+}
+#lastCardContainer {
+    border: 1px solid slategray;
+    border-radius: 2px;
+    margin: 0.5rem 0;
+    
+}
+#lastCardContainer img, textarea{
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+#lastCardContainer p {
+    font-weight: bold;
+    font-family: monospace;
+    
+}
+
+#cater {
+    display: inline-flex;
+    width: 100%;
+}
+#dispCardsContainer {
+    display: block;
+    background-color: white;
+    width: 100%;
+    
+
+}
+#dispChoice1{
+    
+    border: 1px solid cyan;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-left:5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+#dispChoice2, #dispChoice3 {
+    padding-left:5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+#alpha {
+    position: fixed;
+}
+#choicesContainer {
+    display: flex;   
+    height: 700px;
+    width: fit-content;
+    white-space: nowrap;
+    overflow: auto;
+    position: sticky;
+}
+#omegaChoiceContainer {
+    display: inline-flex;
+    width: 100%;
+    /* border: 10px solid rgb(209, 206, 206); */
+    border-radius: 2px;
+    padding: 2px;
+    
+}
+
+#hr1 {
+    display: inline-flex;
+    background-color: #333;
+    height: 800px;
+}
+#choices button {
+    border-bottom: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+#choices button:focus {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+@media screen and (min-width: 100px) {
+    #omegaChoiceContainer {
+      margin-left: 130px;
+    }
+  }
+  

@@ -1,0 +1,127 @@
+@media only screen and (max-width : 320px) {
+    #headerDealimg {
+        width: 80px;
+        border-radius: 5px;
+        height: 80px;
+    }
+    
+    #noon {
+        padding-top: 10px;
+        position: relative;
+       width: fit-content;
+        gap: 20px;
+        background-color: #333;
+        display: flex;
+    }
+    #noon img {
+        margin-left: auto;
+    }
+    #noon p{
+        justify-content: center;
+        display: flex;
+    }
+    
+    #headerDealCard p {
+        text-align: center;
+        font-family: 'Times New Roman';
+        justify-content: center;
+        color: white;
+        font-weight: normal;
+        padding-left: 4px;
+    
+    }
+    #masterCard {
+        padding: 0 2rem;
+        overflow: auto;
+        min-width: 100%;
+        max-width: 100%;
+        white-space: nowrap;
+    }
+    #headerDealCard:hover {
+        cursor: pointer;
+        font-weight: bold;
+    }
+    #headerDealCard {
+        width: 100px;
+        color: black;
+        font-weight: 500;
+        display: inline-block;
+        
+    }
+    #headerContainer {
+        position: inherit;
+        margin-top: 10px;
+        width: 100%;
+        overflow: visible;
+        
+    }
+    #hr1 {
+        height: 4px;
+        width: 4px;
+        border: 2px solid black;
+    }
+}
+
+@media only screen and (min-width: 321px) {
+    #headerDealimg {
+        width: 80px;
+        border-radius: 5px;
+        height: 80px;
+    }
+    
+    #noon {
+        padding-top: 10px;
+        position: relative;
+       width: fit-content;
+        gap: 20px;
+        background-color: #333;
+        display: flex;
+    }
+    #noon img {
+        margin-left: auto;
+    }
+    #noon p{
+        justify-content: center;
+        display: flex;
+    }
+    
+    #headerDealCard p {
+        text-align: center;
+        font-family: 'Times New Roman';
+        justify-content: center;
+        color: white;
+        font-weight: normal;
+        padding-left: 4px;
+    
+    }
+    #masterCard {
+        padding: 0 2rem;
+        overflow: auto;
+        min-width: 100%;
+        max-width: 100%;
+        white-space: nowrap;
+    }
+    #headerDealCard:hover {
+        cursor: pointer;
+        font-weight: bold;
+    }
+    #headerDealCard {
+        width: 100px;
+        color: black;
+        font-weight: 500;
+        display: inline-block;
+        
+    }
+    #headerContainer {
+        position: inherit;
+        margin-top: 10px;
+        width: 100%;
+        overflow: visible;
+        
+    }
+    #hr1 {
+        height: 4px;
+        width: 4px;
+        border: 2px solid black;
+    }
+}

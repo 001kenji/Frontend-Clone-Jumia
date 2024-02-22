@@ -1,0 +1,32 @@
+#variableCard {
+    width: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    height: fit-content;
+}
+#masterCardVariable {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+#variableCard p {
+    width: fit-content;
+}
+#variableCard img {
+    background-color: transparent;
+    border-radius: 4px;
+    margin-top: -1px;
+}
+#variableContainer:hover {
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+#varableMaster {
+    padding: 10px;
+    display: flex;
+    flex-wrap:nowrap;
+    gap: 10px;
+    background-color: #333;
+}
