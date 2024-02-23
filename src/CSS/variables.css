@@ -7,7 +7,6 @@
     height: fit-content;
 }
 #masterCardVariable {
-    background-color: #333;
     overflow: auto;
     white-space: nowrap;
 }
@@ -28,5 +27,4 @@
     display: flex;
     flex-wrap:nowrap;
     gap: 10px;
-    background-color: #333;
 }

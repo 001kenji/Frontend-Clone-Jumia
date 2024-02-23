@@ -88,8 +88,8 @@ const variableMapper = variables.map((items) =>
 )
     return(
         <>
-        <div id="masterCardVariable">
-        <div id="varableMaster">
+        <div className=" bg-gray-500" id="masterCardVariable">
+        <div id="varableMaster"> 
             {variableMapper}
         </div>
         </div>

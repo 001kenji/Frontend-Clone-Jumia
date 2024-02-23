@@ -69,9 +69,9 @@ const HeaderDetailsMapper = headerDetails.map((block) =>
    
     <div   id="headerContainer"> 
     
-        <div className="grid gap-2" id="headerDealCard">
-        <img id="headerDealimg" src={block.Img} />
-        <p>{block.headName}</p> 
+        <div className=" hover:p-2  gap-2" id="headerDealCard">
+        <img className=" mx-auto" id="headerDealimg" src={block.Img} />
+        <p className=" font-semibold  text-center mx-auto  text-slate-900">{block.headName}</p> 
         </div>
        
     </div>
@@ -80,8 +80,8 @@ const HeaderDetailsMapper = headerDetails.map((block) =>
 )
     return (
         <>
-        <div className=" bg-[#333]" id="masterCard">
-        <div id="noon">{HeaderDetailsMapper}</div>
+        <div className=" bg-gray-500" id="masterCard">
+        <div className=" " id="noon">{HeaderDetailsMapper}</div>
         </div>
         <hr className=" h-[4px] bg-slate-900"  />
         </>

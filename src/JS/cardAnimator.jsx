@@ -117,8 +117,8 @@ const MycardsMapper = Mycards.map((items) =>
 )
     return(
         <>
-        <div className=" bg-[#333] " id="masterContainer">
-        <div className=" bg-red-800"   id="megaContainer">{MycardsMapper}</div>
+        <div className=" bg-gray-500 " id="masterContainer">
+        <div className=" bg-transparent"   id="megaContainer">{MycardsMapper}</div>
         </div>
         <hr id="hr2" />
         </>
