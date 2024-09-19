@@ -4,7 +4,7 @@
 :briefcase: **Overview**
 -----------
 
-This repository houses a full-stack web application with authentication for login and sign up.Designed to facilitate job posting and application processes.Like Jumia integrates a dynamic front-end for users to browse with a robust back-end managing product listings, user accounts, orders, and payments. 
+This repository houses a full-stack web application with authentication for login and sign-up. Designed to facilitate job posting and application processes.Intergrated a dynamic front-end for users to browse with a robust back-end managing product listings, user accounts, orders, and payments. 
 
 ## Image Previews
 ![alt text](<./src/assets/image (1).png>) 
@@ -31,7 +31,6 @@ cd Frontend-Clone-Jumia-main
 ### Install frontend dependencies
 Open In Editor
 ```
-cd frontend
 npm install
 ```
 
