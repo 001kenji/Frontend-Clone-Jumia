@@ -1,0 +1,60 @@
+#itemSearch {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: full;
+    margin-top: 5px;
+    color: black;
+
+    background-color:black;
+}
+#itemSearch input::placeholder{
+    font-size: large;
+}
+#itemSearch input {
+    width: 400px;
+    border-radius: 4px;
+    padding: 6px;
+    border: 1px solid black;
+    
+}
+#itemSearch input:active {
+
+border: 1px solid orange;
+}
+#itemSearch button {
+    padding: 2px;
+    border-radius: 6px;
+    color: white;
+    background-color: grey;
+    margin-left: -20px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+#itemSearch button:hover {
+    font-weight: bold;
+    background-color: orange;
+}
+#choicesBar {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    justify-content: space-around;
+    display: flex;
+    gap: 12px;
+    
+}
+#choinceBar button {
+   
+}
+#choicesBar button:hover {
+    padding: 2px;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+hr{
+    border: 0.01rem solid rgb(58, 58, 58);
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Product A",
+    "cost": 25.99,
+    "title": "High-Performance Wireless Headphones",
+    "description": "Immerse yourself in rich, detailed sound with these wireless headphones featuring active noise cancellation, Bluetooth connectivity, and long-lasting battery life.",
+    "discount": 10
+  },
+  {
+    "name": "Product B",
+    "cost": 39.99,
+    "title": "Smart Fitness Tracker",
+    "description": "Track your daily activity, sleep patterns, and heart rate with this advanced fitness tracker featuring a sleek design, water resistance, and color display.",
+    "discount": 5
+  },
+  {
+    "name": "Product C",
+    "cost": 149.99,
+    "title": "High-Definition Action Camera",
+    "description": "Capture stunning 4K video and high-resolution photos with this action camera featuring a rugged design, image stabilization, and a variety of mounting options.",
+    "discount": 15
+  },
+  {
+    "name": "Product D",
+    "cost": 79.99,
+    "title": "Portable Bluetooth Speaker",
+    "description": "Experience rich, room-filling sound with this portable Bluetooth speaker featuring a waterproof design, long-lasting battery life, and built-in microphone for hands-free calling.",
+    "discount": 20
+  },
+  {
+    "name": "Product E",
+    "cost": 199.99,
+    "title": "High-Performance Gaming Laptop",
+    "description": "Dominate the virtual battlefield with this powerful gaming laptop featuring a top-of-the-line graphics card, high-refresh-rate display, and customizable RGB lighting.",
+    "discount": 0
+  },
+  {
+    "name": "Product F",
+    "cost": 49.99,
+    "title": "Wireless Earbuds",
+    "description": "Enjoy true wireless freedom with these earbuds featuring a comfortable fit, long-lasting battery life, and touch controls for music, calls, and voice assistants.",
+    "discount": 10
+  },
+  {
+    "name": "Product G",
+    "cost": 24.99,
+    "title": "Sports Watch",
+    "description": "Track your workouts, monitor your heart rate, and stay connected with this stylish sports watch featuring a durable design, water resistance, and built-in GPS.",
+    "discount": 15
+  },
+  {
+    "name": "Product H",
+    "cost": 69.99,
+    "title": "Smart Home Hub",
+    "description": "Control your smart home devices, set routines, and receive notifications with this central hub featuring voice assistant compatibility, a sleek design, and multiple connectivity options.",
+    "discount": 20
+  },
+  {
+    "name": "Product I",
+    "cost": 129.99,
+    "title": "Virtual Reality Headset",
+    "description": "Immerse yourself in virtual worlds with this VR headset featuring high-resolution displays, comfortable design, and a variety of compatible games and experiences.",
+    "discount": 0
+  },
+  {
+    "name": "Product J",
+    "cost": 34.99,
+    "title": "Wireless Mouse",
+    "description": "Experience precision and comfort with this wireless mouse featuring a comfortable grip, laser tracking, and long-lasting battery life.",
+    "discount": 10
+  }
+]
+}

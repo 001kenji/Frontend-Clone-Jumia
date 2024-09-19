@@ -1,0 +1,265 @@
+@media only screen and (max-width: 320px) {
+    #lastCardContainer {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        width: 70%;
+    }
+    #lastCardContainer:hover {
+        /* width: fit-content; */
+        
+        border: 1px solid #333;
+        border-radius: 4px;
+    }
+    #lastdiscout {
+        color: orange;
+        width: fit-content;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 4px;
+        position: relative;
+        top: 1.8rem;
+        left: 2px;
+        background-color: rgb(238, 233, 181);
+    }
+    #cardTitle {
+        margin-left: 10px;
+        font-family: serif;
+        font-size: large;
+        font-weight: 600;
+    }
+    #cardAll:hover {
+        color: #333;
+        background-color: orange;
+        font-weight: bold;
+    }
+    #cardAll {
+        margin-bottom: 10px;
+        font-family: serif;
+        font-weight: 500;
+        color: orange;
+        background-color: #333;
+        padding: 5px;
+        border-radius: 4px;
+        display: inline-flex;
+        position: relative;
+        float: right;
+        margin-top: -20px;
+        right: 1.2rem;
+    }
+    #lastViewedMasterContainer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        width: 100%;
+        background-color: transparent;
+        min-width: 100%;
+        max-width: 100%;
+        align-items:center;
+        justify-content: space-around;
+        
+        margin-top: 5px;
+    }
+    #hr1 {
+        height: 6px;
+        background-color: black;
+    }
+    #lastViewedImg{
+        height: 150px;
+        border-radius: 5px;
+        width:  150px;
+    }
+    #lastViewedTitle {
+        text-overflow: ellipsis;
+        font-family: 'Times New Roman', Times, serif;
+        justify-content: center;
+        display: flex;
+      
+    }
+    #lastViewedDetails {
+        
+        text-overflow: ellipsis;
+        resize: none;
+        width: 100%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 321px) and (max-width: 640px) {
+    #lastCardContainer {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        width: 40%;
+    }
+    #lastCardContainer:hover {
+        /* width: fit-content; */
+        
+        border: 1px solid #333;
+        border-radius: 4px;
+    }
+    #lastdiscout {
+        color: orange;
+        width: fit-content;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 4px;
+        position: relative;
+        top: 1.8rem;
+        left: 2px;
+        background-color: rgb(238, 233, 181);
+    }
+    #cardTitle {
+        margin-left: 10px;
+        font-family: serif;
+        font-size: large;
+        font-weight: 600;
+    }
+    #cardAll:hover {
+        color: #333;
+        background-color: orange;
+        font-weight: bold;
+    }
+    #cardAll {
+        margin-bottom: 10px;
+        font-family: serif;
+        font-weight: 500;
+        color: orange;
+        background-color: #333;
+        padding: 5px;
+        border-radius: 4px;
+        display: inline-flex;
+        position: relative;
+        float: right;
+        margin-top: -20px;
+        right: 1.2rem;
+    }
+    #lastViewedMasterContainer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        width: 100%;
+        background-color: transparent;
+        min-width: 100%;
+        max-width: 100%;
+        align-items:center;
+        justify-content: space-around;
+        
+        margin-top: 5px;
+    }
+    #hr1 {
+        height: 6px;
+        background-color: black;
+    }
+    #lastViewedImg{
+        height: 150px;
+        border-radius: 5px;
+        width:  150px;
+    }
+    #lastViewedTitle {
+        text-overflow: ellipsis;
+        font-family: 'Times New Roman', Times, serif;
+        justify-content: center;
+        display: flex;
+      
+    }
+    #lastViewedDetails {
+        
+        text-overflow: ellipsis;
+        resize: none;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    #lastCardContainer {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        width: 28%;
+        text-align: center;
+        align-content: center;
+    }
+    #lastCardContainer:hover {
+        /* width: fit-content; */
+        
+        border: 1px solid #333;
+        border-radius: 4px;
+    }
+    #lastdiscout {
+        color: orange;
+        width: fit-content;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 4px;
+        position: relative;
+        top: 1.8rem;
+        left: 2px;
+        background-color: rgb(238, 233, 181);
+    }
+    #cardTitle {
+        margin-left: 10px;
+        font-family: serif;
+        font-size: large;
+        font-weight: 600;
+    }
+    #cardAll:hover {
+        color: #333;
+        background-color: orange;
+        font-weight: bold;
+    }
+    #cardAll {
+        margin-bottom: 10px;
+        font-family: serif;
+        font-weight: 500;
+        color: orange;
+        background-color: #333;
+        padding: 5px;
+        border-radius: 4px;
+        display: inline-flex;
+        position: relative;
+        float: right;
+        margin-top: -20px;
+        right: 1.2rem;
+    }
+    #lastViewedMasterContainer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        width: 100%;
+        background-color: transparent;
+        min-width: 100%;
+        max-width: 100%;
+        align-items:center;
+        justify-content: space-around;
+        
+        margin-top: 5px;
+    }
+    #hr1 {
+        height: 6px;
+        background-color: black;
+    }
+    #lastViewedImg{
+        height: 150px;
+        border-radius: 5px;
+        width:  150px;
+    }
+    #lastViewedTitle {
+        text-overflow: ellipsis;
+        font-family: 'Times New Roman', Times, serif;
+        justify-content: center;
+        display: flex;
+      
+    }
+    #lastViewedDetails {
+        
+        text-overflow: ellipsis;
+        resize: none;
+        width: 100%;
+    }
+}
